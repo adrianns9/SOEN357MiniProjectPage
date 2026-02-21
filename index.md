@@ -2,122 +2,195 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# TABLE OF CONTENTS
 
-[Link to another page](./another-page.html).
+1. Introduction
+2. User Research and Persona Creation
+3. User Journey Mapping
+4. Wireframing and Prototype Design
+5. Usability Testing
+6. Reflection
+7. References
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# 1. INTRODUCTION
 
-# Header 1
+The current blog focuses on the UX/UI design of a health companion app helping individuals with health management of their chronic health conditions. These health-related tasks include reminding users to take medications on time, scheduling doctor appointments, and contacting medical professionals. Although these tasks seem trivial individually, the demands of daily life can become overwhelming for individuals managing ongoing conditions. Often, this leads to missed medication deadlines or delayed medical follow-ups.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Research shows that mobile applications designed to support medication adherence produce positive outcomes, especially when reminders, interactive features, and healthcare data sharing are included. The proposed app aims to promote these outcomes by following a structured UX/UI design process.
 
-## Header 2
+The design process begins with user research and persona creation. A user journey map is then used to identify interaction steps and pain points. Low-fidelity wireframes and a prototype demonstrate functionality and navigation. A usability testing plan evaluates the design, followed by a reflection on challenges and lessons learned.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+---
 
-### Header 3
+# 2. User Research and Persona Creation
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+To better understand daily medication-management challenges, research papers were reviewed with the following objectives:
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+- Understand why medication-management applications are needed
+- Identify common causes of missed medication
+- Learn what design features improve usability
+- Understand how technology supports long-term health habits
+- Explore communication needs between patients and healthcare providers
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Why Medication-Management Apps Are Needed
 
-##### Header 5
+Research indicates that mobile health apps improve adherence among patients with chronic diseases through reminders, interactive features, and communication with healthcare professionals. Systematic reviews also show improved adherence compared to traditional care methods, supporting the need for digital tools that reduce mental effort in managing treatments.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+## UX and Usability Findings
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+Usability studies reveal that users value simple interfaces and clear notifications. Reminder systems reduce stress and improve consistency. Additional evaluations highlight reminders, social support, and understandable medication information as key engagement factors.
 
-### There's a horizontal rule below this.
+---
 
-* * *
+## Chronic Disease Self-Management
 
-### Here is an unordered list:
+Mobile health research shows that reminders and progress tracking help users build long-term habits. Educational content and provider communication were also found to significantly improve adherence.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+---
 
-### And an ordered list:
+## Appointments and Healthcare Communication
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+Appointment tracking and remote communication improve patient outcomes, provided systems remain simple and easy to use.
 
-### And a nested list:
+---
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+## Key Research Insights
 
-### Small image
+- Reminder systems greatly improve adherence
+- Users prefer simple interfaces
+- Managing multiple prescriptions causes confusion
+- Confirmation feedback reduces anxiety
+- Easy healthcare communication is highly valued
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+---
 
-### Large image
+## Personas
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+Two personas were created to represent different user groups:
 
+- **Andrew** — a busy professional comfortable with technology but struggling with consistency.
+- **Bob** — a retired patient less comfortable using technology.
 
-### Definition lists can be used with HTML syntax.
+![Personas for Health Companion App](assets/images/personas.png)
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+---
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+# 3. User Journey Mapping
 
-```
-The final element.
-```
+<!-- TABLE CONVERTED TO IMAGE PLACEHOLDER -->
+
+![User Journey Mapping Table](assets/images/user-journey-table.png)
+
+Users initially experience anxiety and uncertainty but gradually gain confidence as reminders and confirmations provide reassurance. These insights guided design decisions emphasizing simplicity and reduced cognitive effort.
+
+---
+
+# 4. Wireframing and Prototype Design
+
+## User Flow Diagram
+
+Inspired by the journey map, a user flow diagram was created showing the application's main navigation paths. The app focuses on four main screens:
+
+- Overview
+- Health
+- Appointments
+- Chat
+
+![User Flow of Application](assets/images/userflow.png)
+
+---
+
+## Wireframes
+
+Wireframes were created to visualize layout and functionality before visual styling.
+
+![Wireframes – Main Screens](assets/images/wireframes-main.png)
+
+![Wireframes – Appointment Scheduling](assets/images/wireframes-appointments.png)
+
+---
+
+## Prototype
+
+A Figma prototype was developed to better understand interaction flow.
+
+**Prototype Link:**
+https://www.figma.com/proto/P3rEnWX7WJ3HDRZ9oP5UlJ/Paper-Wireframe-Kit--Community-
+
+![Prototype – Main Screens](assets/images/prototype-main.png)
+
+![Prototype – Appointment Scheduling](assets/images/prototype-appointments.png)
+
+---
+
+## Choice of Style, Color, Animation, and Fonts
+
+The interface design promotes clarity and comfort. A white background reduces visual distraction, while blue headers and footers create consistency and a trustworthy healthcare appearance.
+
+Color feedback communicates status:
+
+- Green indicates completed medication
+- Red highlights missed or incomplete actions
+
+Fonts used:
+
+- **Patrick Hand** for primary interface text
+- **Inter** for supporting elements
+
+Subtle animations guide attention during navigation while avoiding cognitive overload.
+
+---
+
+# 5. Usability Testing
+
+The usability testing focuses on:
+
+- Validating ease of navigation
+- Measuring reminder clarity
+- Identifying usability issues
+
+---
+
+## User Tasks
+
+Participants will:
+
+- Add a new medication
+- Confirm a reminder
+- Schedule an appointment
+- Send a message to a healthcare professional
+
+---
+
+## Data Collection
+
+Methods include:
+
+- Think-aloud testing
+- Task completion timing
+- Error and hesitation tracking
+- Post-test questionnaires
+
+---
+
+## Expected Analysis Approach
+
+Observations will be reviewed to identify recurring usability issues and prioritize improvements for future design iterations.
+
+---
+
+# 6. Reflection
+
+The UX process revealed that users managing chronic conditions experience emotional stress and cognitive overload in addition to organizational challenges. Research and personas shifted the focus toward creating a reassuring and easy-to-use experience.
+
+A major challenge involved balancing detailed medical information with simplicity for users of varying technological ability. This was addressed using simplified workflows and progressive disclosure. Overall, the UX process ensured decisions were grounded in real user needs, improving usability and accessibility.
+
+---
+
+# 7. REFERENCES

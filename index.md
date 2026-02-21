@@ -62,6 +62,8 @@ Appointment tracking and remote communication improve patient outcomes, provided
 
 ## Key Research Insights
 
+Based on these reviewed papers, the key research insights are as follows:
+
 - Reminder systems greatly improve adherence
 - Users prefer simple interfaces
 - Managing multiple prescriptions causes confusion
@@ -72,10 +74,11 @@ Appointment tracking and remote communication improve patient outcomes, provided
 
 ## Personas
 
-Two personas were created to represent different user groups:
+Two personas were created to represent different user groups.
 
-- **Andrew** — a busy professional comfortable with technology but struggling with consistency.
-- **Bob** — a retired patient less comfortable using technology.
+Andrew is comfortable with technology and lives a fast-paced professional life. While he understands how to use apps efficiently, busy workdays often cause him to forget medications or delay health tasks. For Andrew, the app must be fast, unobtrusive, and reliable.
+
+Bob represents users who are less comfortable with technology. He values clarity and reassurance over advanced features. Complex interfaces can quickly become barriers, so accessibility and simplicity are essential for his experience.
 
 ![Personas for Health Companion App](assets/images/personas.png)
 
@@ -118,10 +121,7 @@ Wireframes were created to visualize layout and functionality before visual styl
 
 ## Prototype
 
-A Figma prototype was developed to better understand interaction flow.
-
-**Prototype Link:**
-https://www.figma.com/proto/P3rEnWX7WJ3HDRZ9oP5UlJ/Paper-Wireframe-Kit--Community-
+[A Figma prototype]{https://www.figma.com/proto/P3rEnWX7WJ3HDRZ9oP5UlJ/Paper-Wireframe-Kit--Community-?page-id=7585%3A17227&node-id=7585-17228&p=f&viewport=1189%2C763%2C0.86&t=zGJ9qs35PaOYojBj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=7585%3A17228} was developed to better understand interaction flow.
 
 ![Prototype – Main Screens](assets/images/prototype-main.png)
 
@@ -190,7 +190,3 @@ Observations will be reviewed to identify recurring usability issues and priorit
 The UX process revealed that users managing chronic conditions experience emotional stress and cognitive overload in addition to organizational challenges. Research and personas shifted the focus toward creating a reassuring and easy-to-use experience.
 
 A major challenge involved balancing detailed medical information with simplicity for users of varying technological ability. This was addressed using simplified workflows and progressive disclosure. Overall, the UX process ensured decisions were grounded in real user needs, improving usability and accessibility.
-
----
-
-# 7. REFERENCES
